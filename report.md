@@ -10,7 +10,7 @@ date: 2026-11-16
 
 ## Dataset and preprocessing
 
-Our task is to locate and classify eight types of people and vehicles in VisDrone drone videos. Cars and people dominate the annotations, while buses are rare, so overall results can hide differences between classes. Many objects also occupy only a few pixels after resizing, particularly in crowded scenes. Our [dataset analysis and ground-truth figures](homework2.ipynb) therefore motivated smaller anchors, higher-resolution inference, and crop-based training.
+Our task is to locate and classify eight types of people and vehicles in VisDrone drone videos. Cars and people dominate the annotations, while buses are rare, so overall results can hide differences between classes. Many objects also occupy only a few pixels after resizing, particularly in crowded scenes. Our dataset analysis and ground-truth figures therefore motivated smaller anchors, higher-resolution inference, and crop-based training.
 
 | Dataset observation | Recorded value |
 |---|---|
